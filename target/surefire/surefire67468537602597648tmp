@@ -1,0 +1,5 @@
+#surefire
+#Thu Jul 12 01:12:14 EEST 2012
+user.dir=/home/cas/proj/calc
+localRepository=/home/cas/.m2/repository
+basedir=/home/cas/proj/calc
