@@ -32,6 +32,27 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>jar-feature</id>
+            <phase>process-resources</phase>
+            <configuration>
+              <includes>
+                <include>/src</include>
+              </includes>
+              <classifier>me</classifier>
+              <forceCreation>true</forceCreation>
+            </configuration>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+        <inherited>false</inherited>
+      </plugin>
     </plugins>
   </build>
 </project>
