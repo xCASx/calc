@@ -16,8 +16,6 @@
       <version>4.1</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
-  <build>
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-surefire-plugin</artifactId>
@@ -31,5 +29,5 @@
         </execution>
       </executions>
     </plugin>
-  </build>
+  </dependencies>
 </project>
