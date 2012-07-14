@@ -35,28 +35,28 @@ public class CalculatorTest {
     public void testExecPlus()
             throws OperationNotSupportedException, OverflowException {
         long result = c.exec(1L, '+', 5L);
-        assertEquals(6, result);
+        assertEquals(6L, result);
     }
     
     @Test
     public void testExecMinus()
             throws OperationNotSupportedException, OverflowException {
         long result = c.exec(14L, '-', 8L);
-        assertEquals(6, result);
+        assertEquals(6L, result);
     }
     
     @Test
     public void testExecMul()
             throws OperationNotSupportedException, OverflowException {
         long result = c.exec(2L, '*', 3L);
-        assertEquals(6, result);
+        assertEquals(6L, result);
     }
     
     @Test
     public void testExecDiv()
             throws OperationNotSupportedException, OverflowException {
         long result = c.exec(12L, '/', 2L);
-        assertEquals(6, result);
+        assertEquals(6L, result);
     }
     
     @Test(expected=OperationNotSupportedException.class)
